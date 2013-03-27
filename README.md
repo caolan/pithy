@@ -91,11 +91,11 @@ I like to alias the 'pithy' library as 'html':
 var html = require('pithy');
 ```
 
-You can then just use pithy.`tagname` as a function to create the
-appropriate element. Please note, you actually get a pithy.SafeString
+You can then just use html.`tagname` as a function to create the
+appropriate element. Please note, you actually get a html.SafeString
 object back, not a native JavaScript String. This *might* mess up your
 isString() tests. If you have a workaround please send a pull-request.
 
-There is also a pithy.escape() function for escaping HTML (returns a
-pithy.SafeString). It will not escape a value that is already a
-pithy.SafeString object.
+There is also a html.escape() function for escaping HTML (returns a
+html.SafeString). It will not escape a value that is already a
+html.SafeString object.
