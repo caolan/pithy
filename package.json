@@ -1,0 +1,5 @@
+{
+    "name": "pithy",
+    "version": "0.0.1",
+    "description": "Internal DSL for generating HTML"
+}
