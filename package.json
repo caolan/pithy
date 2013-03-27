@@ -1,5 +1,19 @@
 {
     "name": "pithy",
-    "version": "0.0.1",
-    "description": "Internal DSL for generating HTML"
+    "version": "0.0.2",
+    "description": "Internal DSL for generating HTML",
+    "devDependencies": {
+        "nodeunit": ">0.0.0"
+    },
+    "jam": {
+        "main": "lib/pithy.js",
+        "include": [
+            "lib/pithy.js",
+            "README.md",
+            "LICENSE"
+        ]
+    },
+    "scripts": {
+        "test": "nodeunit test/test-pithy.js"
+    }
 }
