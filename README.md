@@ -67,7 +67,7 @@ todoList([
 - It's a more convenient and safer alternative to string contatenation
 - Very flexible, you can use all the power of JavaScript functions and
   control structures
-- For small bits of HTML you might not want to switch contexts form code
+- For small bits of HTML you might not want to switch contexts from code
   to a template
 - Easier to debug than a templating engine
 - You get full tool-chain support:
