@@ -2,6 +2,7 @@
     "name": "pithy",
     "version": "0.0.2",
     "description": "Internal DSL for generating HTML",
+    "main": "lib/pithy",
     "devDependencies": {
         "nodeunit": ">0.0.0"
     },
